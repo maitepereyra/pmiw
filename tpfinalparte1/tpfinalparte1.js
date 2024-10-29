@@ -1,8 +1,7 @@
 //TPFINALPARTE1
-//MAITENA PEREYRA PROPATTO
-//CANDELA HERMIDA
+//MAITENA PEREYRA PROPATTO 120354/3
 //COMISION 5
-//LINK DEL VIDEO: https://youtu.be/pVuj5L9v3cs?si=3KBHZrLT6hyVsCRQ
+//LINK DEL VIDEO: https://youtu.be/-kP9HLWF8Kw?si=Q0KcbXHm0qh8-ruo
 
 let anchoPantalla = 640;
 let altoPantalla = 480;
