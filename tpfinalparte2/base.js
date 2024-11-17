@@ -3,6 +3,7 @@ class base {
     this.posX = 270;
     this.posY = 0;
     this.vida = true;
+    this.destruida = false;
   }
 
   dibujar() {
@@ -16,9 +17,9 @@ class base {
       this.destruirse();
     }
   }
-  
+
   destruirse() {
     this.vida = false;
+    this.destruida = true
   }
-  
 }
