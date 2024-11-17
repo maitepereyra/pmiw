@@ -4,7 +4,6 @@ class juego {
     this.crearPersonaje();
     this.crearEnemigos();
     this.crearBase();
-    this.estadoJuego = "jugando";
   }
 
   dibujar() {
