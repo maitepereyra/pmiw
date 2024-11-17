@@ -1,7 +1,7 @@
 //TPFINALPARTE1
 //MAITENA PEREYRA PROPATTO 120354/3
 //COMISION 5
-//LINK DEL VIDEO:
+//LINK DEL VIDEO: https://youtu.be/EOldKOOjAoQ?si=39bIBfKM8zUAqb0Q
 
 let mario, bola1, bola2, castillo, goomba, inicio, instrucciones, creditos, fondo, perdiste, ganaste;
 let objPrincipal;
