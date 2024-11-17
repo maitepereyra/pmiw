@@ -20,7 +20,7 @@ class juego {
       this.controlarAtaquesEnemigos();
     } else if (this.personaje.muerto) {
       this.perdiste();
-    } else if (!this.base.vida){
+    } else if (this.destruida){
       this.ganaste();
       }
   }
