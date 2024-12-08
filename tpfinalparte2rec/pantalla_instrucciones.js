@@ -1,15 +1,23 @@
-class pantallaInstrucciones {
+class pantallaInicio {
   constructor() {
   }
 
   dibujar() {
-    image(imgInstrucciones, 0, 0, width, height);
+    image(imgInicio, 0, 0, width, height);
   }
 
-  boton() {
+  botonJugar() {
     if (mousePressed) {
-      if (mouseX > 265 && mouseX < 400 && mouseY > 300 && mouseY < 335) {
+      if (mouseX > 225 && mouseX < 410 && mouseY > 125 && mouseY < 185) {
         objPrincipal.controlDePantalla.pantallactiva = 3;
+      }
+    }
+  }
+
+  botonInstrucciones() {
+    if (mousePressed) {
+      if (mouseX > 250 && mouseX < 405 && mouseY > 200 && mouseY < 255) {
+        objPrincipal.controlDePantalla.pantallactiva = 2;
       }
     }
   }
