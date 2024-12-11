@@ -15,6 +15,9 @@ class programaPrincipal {
   if (this.controlDePantalla.obtenerPantallaActiva() === 3) {
     this.juego.teclaPresionada(keyCode);
   }
+    if (keyCode === 82){
+    this.reiniciarJuego();
+    }
 }
 
   mousePresionado(mousePressed) {
